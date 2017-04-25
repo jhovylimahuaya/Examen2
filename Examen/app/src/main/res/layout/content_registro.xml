@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.toshibaceleron.examen.Registro"
+    tools:showIn="@layout/activity_registro">
+
+    <EditText
+        android:id="@+id/editText3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="15"
+        android:inputType="textPersonName"
+        android:hint="Nombres"
+        android:textColorHint="#000"
+        tools:layout_editor_absoluteX="31dp"
+        tools:layout_editor_absoluteY="44dp" />
+
+    <EditText
+        android:id="@+id/editText4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="15"
+        android:inputType="textPersonName"
+        android:hint="Apellidos"
+        android:textColorHint="#000"
+        tools:layout_editor_absoluteX="31dp"
+        tools:layout_editor_absoluteY="95dp" />
+
+    <EditText
+        android:id="@+id/editText5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="15"
+        android:inputType="textPersonName"
+        android:hint="Ejemplo@dominio.com"
+        android:textColorHint="#C0C0C0"
+        tools:layout_editor_absoluteX="31dp"
+        tools:layout_editor_absoluteY="176dp" />
+
+    <EditText
+        android:id="@+id/editText6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="15"
+        android:hint="Contraseña"
+        android:textColorHint="#000"
+        android:inputType="textPassword"
+        tools:layout_editor_absoluteY="234dp"
+        tools:layout_editor_absoluteX="31dp" />
+
+    <EditText
+        android:id="@+id/editText7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="15"
+        android:hint="Confirmar Contraseña"
+        android:textColorHint="#000"
+        android:inputType="textPassword"
+        tools:layout_editor_absoluteY="285dp"
+        tools:layout_editor_absoluteX="31dp" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cancelar"
+        tools:layout_editor_absoluteX="67dp"
+        tools:layout_editor_absoluteY="438dp" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Registrar"
+        tools:layout_editor_absoluteX="228dp"
+        tools:layout_editor_absoluteY="438dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="111dp"
+        android:layout_height="22dp"
+        android:text="Correo o Usuario"
+        android:textColor="#000"
+        tools:layout_editor_absoluteX="31dp"
+        tools:layout_editor_absoluteY="147dp" />
+
+    <RadioButton
+        android:id="@+id/radioButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Masculino"
+        tools:layout_editor_absoluteX="31dp"
+        tools:layout_editor_absoluteY="382dp" />
+
+    <RadioButton
+        android:id="@+id/radioButton2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Femenino"
+        tools:layout_editor_absoluteX="233dp"
+        tools:layout_editor_absoluteY="382dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sexo"
+        android:textColor="#000"
+        tools:layout_editor_absoluteX="31dp"
+        tools:layout_editor_absoluteY="347dp" />
+
+
+</android.support.constraint.ConstraintLayout>
